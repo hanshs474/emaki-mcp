@@ -71,4 +71,4 @@ Parameters: `duration`, `resolution` (`480p` / `720p` / `1080p`), `aspect_ratio`
 - One video runs at a time per account; a second submit while one is generating is refused until the first finishes.
 - `EMAKI_BASE_URL` overrides the endpoint; only useful against a local build of the site.
 
-API reference: [emaki.readthedocs.io](https://emaki.readthedocs.io/). MIT licensed. Made by [emaki](https://emaki.ai/?utm_source=github&utm_medium=package).
+API reference: [emaki.readthedocs.io](https://emaki.readthedocs.io/) · archived on Zenodo: [10.5281/zenodo.23409096](https://doi.org/10.5281/zenodo.23409096). MIT licensed. Made by [emaki](https://emaki.ai/?utm_source=github&utm_medium=package).
