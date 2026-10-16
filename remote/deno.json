@@ -1,0 +1,7 @@
+{
+  "deploy": {
+    "org": "emaki",
+    "app": "emaki-mcp"
+  }
+}
+
