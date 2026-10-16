@@ -1,0 +1,54 @@
+{
+  "name": "emaki-mcp",
+  "version": "0.1.0",
+  "mcpName": "io.github.hanshs474/emaki-mcp",
+  "description": "MCP server for emaki (emaki.ai), the Japanese-language AI video generator for Seedance 2.5 and Seedance 2.0: generate video and images from Claude, Cursor or any MCP client on your emaki credits.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "seedance",
+    "seedance-2-5",
+    "ai-video-generator",
+    "image-to-video",
+    "text-to-video",
+    "nano-banana",
+    "emaki"
+  ],
+  "homepage": "https://emaki.ai/?utm_source=npm&utm_medium=package",
+  "bugs": {
+    "url": "https://github.com/hanshs474/emaki-mcp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanshs474/emaki-mcp.git"
+  },
+  "license": "MIT",
+  "author": "emaki (https://emaki.ai)",
+  "type": "module",
+  "bin": {
+    "emaki-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "start": "node dist/index.js",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "emaki",
+  "version": "0.1.0",
+  "description": "Generate Seedance 2.5 and Seedance 2.0 video and AI images on emaki.ai from Gemini CLI, on your own API key.",
+  "mcpServers": {
+    "emaki": {
+      "command": "npx",
+      "args": ["-y", "emaki-mcp"],
+      "env": { "EMAKI_API_KEY": "$EMAKI_API_KEY" }
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

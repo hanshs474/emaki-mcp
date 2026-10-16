@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "emaki": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "emaki-mcp"],
+      "env": { "EMAKI_API_KEY": "${EMAKI_API_KEY}" }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "emaki",
+  "version": "0.1.0",
+  "description": "Generate Seedance 2.5 and Seedance 2.0 video and AI images on emaki.ai from Claude Code, on your own API key.",
+  "author": { "name": "emaki", "url": "https://emaki.ai/" },
+  "homepage": "https://emaki.ai/?utm_source=claude-plugin&utm_medium=package",
+  "repository": "https://github.com/hanshs474/emaki-mcp",
+  "license": "MIT",
+  "keywords": ["ai", "video-generation", "seedance", "image-to-video", "mcp"]
+}

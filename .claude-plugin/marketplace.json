@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "emaki",
+  "description": "emaki for Claude Code: Seedance 2.5 and Seedance 2.0 video and AI images on your own API key.",
+  "owner": { "name": "emaki", "email": "support@emaki.ai" },
+  "plugins": [
+    {
+      "name": "emaki",
+      "description": "Generate Seedance 2.5 and Seedance 2.0 video and AI images on emaki.ai from Claude Code.",
+      "version": "0.1.0",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://emaki.ai/?utm_source=claude-plugin&utm_medium=package"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "emaki",
+  "version": "0.1.0",
+  "description": "Generate Seedance 2.5 and Seedance 2.0 video (text to video, image to video) and AI images on emaki.ai, on your own API key.",
+  "author": { "name": "emaki", "url": "https://emaki.ai/" },
+  "homepage": "https://emaki.ai/?utm_source=agent-plugin&utm_medium=package",
+  "repository": "https://github.com/hanshs474/emaki-mcp",
+  "license": "MIT",
+  "keywords": ["ai", "video-generation", "seedance", "image-to-video", "mcp"]
+}

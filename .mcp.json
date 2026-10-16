@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "emaki": {
+      "command": "npx",
+      "args": ["-y", "emaki-mcp"],
+      "env": { "EMAKI_API_KEY": "${EMAKI_API_KEY}" }
+    }
+  }
+}
