@@ -47,10 +47,12 @@ Claude Code in one line: `claude mcp add emaki -e EMAKI_API_KEY=sk-... -- npx -y
 ### Remote (Streamable HTTP, no install)
 
 ```
-https://emaki-mcp.emaki.deno.net/mcp
+https://emaki.ai/api/mcp
 ```
 
-Send your key with each request as `Authorization: Bearer sk-...`; the server keeps nothing. Claude Code: `claude mcp add --transport http emaki https://emaki-mcp.emaki.deno.net/mcp --header "Authorization: Bearer sk-..."`. Source in [`remote/`](remote/main.ts) (Deno).
+Hosted on emaki.ai itself. Send your key with each request as `Authorization: Bearer sk-...`; the server keeps nothing. Claude Code: `claude mcp add --transport http emaki https://emaki.ai/api/mcp --header "Authorization: Bearer sk-..."`.
+
+A stand-alone copy of the same server runs at `https://emaki-mcp.emaki.deno.net/mcp` (source in [`remote/`](remote/main.ts), Deno).
 
 ### Gemini CLI
 
